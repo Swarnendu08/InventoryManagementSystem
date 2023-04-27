@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 115px;
+  background: linear-gradient(to bottom right, white 0%, #2FDD00 50%, #00B1DD 80%);
+}
+
+
+header {
+  background-color: #363636;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.login-button {
+  background-color: #fff;
+  background-color: #595959;
+  color: #D7D7D7;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+  background-color: #868585;
+}
+
+
+section {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+footer {
+  background-color: #363636;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cont1andimg{
+	background-color: transparent;
+}
+
+.container1 {
+	font-family: 'Lato', sans-serif;
+	background-color: #D8FF84;
+	border-radius: 0.25rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	margin: 0 auto;
+	max-width: 800px;
+	position: relative;
+	left: 0;
+	float: left;
+	width: 50%;
+	padding: 2rem;
+	transition: transform 0.2s ease-in-out;
+	text-align: justify;
+	margin-bottom: 5rem; /* Add a margin-bottom property to add space */
+}
+
+.intro_ims_image {
+  float: left;
+  background-image: url('/home/swarnendu/Desktop/website/images/intro-ims.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px; /* adjust the height to match container1 */
+  width: 48%; /* adjust the width as needed */
+  margin-right: 20px;
+  float: right;
+  background-position: center center;
+}
+
+
+.container1:hover {
+  transform: translate(0, -10px);
+  transition: all 0.2s ease-in-out;
+}
+
+.container2and3 {
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgba(245, 245, 245, 0.35);
+	border-radius: 0.25rem;
+	box-shadow: 0 0 10px rgba(245, 245, 245, 0.5);
+	clear: both;
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+
+.container2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin: 1%;
+  background-color: #B4FEE4;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-right: 1rem;
+  max-width: 800px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.container3 {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin: 1%;
+  background-color: #B4FEE4;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 500px;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.container2:hover, .container3:hover {
+  transform: scale(1.015);
+  transition: all 0.2s ease-in-out;
+}
