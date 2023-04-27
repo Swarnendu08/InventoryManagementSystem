@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			background-color: #C0C0C0;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			background-image: url('https://dummyimage.com/600x400/cccccc/ffffff&text=NIT-C');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 200px;
+		}
+
+		.nitc {
+			color: #D3D3D3;
+			font-size: 525px;
+			font-weight: bold;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: -1;
+		}
+
+		.form {
+			background-color: #fff;
+			padding: 40px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			border: 3px solid #808080;
+			text-align: center;
+		}
+
+		input[type="text"], input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			margin: 10px 0;
+			transition: transform 0.2s ease-in-out;
+		}
+
+		input[type="text"]:hover, input[type="password"]:hover {
+			transform: translateY(-5px);
+		}
+
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: transform 0.2s ease-in-out;
+		}
+
+		button[type="submit"]:hover {
+			transform: scale(1.05);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="nitc">NIT-C</div>
+		<div class="form">
+			<form>
+				<h2>Login</h2>
+				<input type="text" placeholder="Username">
+				<input type="password" placeholder="Password">
+				<button type="submit">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
