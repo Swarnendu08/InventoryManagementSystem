@@ -113,10 +113,10 @@
         </ul>
     </li>
     <li>
-        <h3><a href="#">CONCLUSION</a></h3>
+        <h3><a href="#conclusion">CONCLUSION</a></h3>
     </li>
     <li>
-        <h3><a href="#">REFERENCES</a></h3>
+        <h3><a href="#references">REFERENCES</a></h3>
     </li>
 </ol>
 
@@ -528,3 +528,17 @@ thought of as recommendations to further enhance the usability of the system.</p
   <img src="/images/readme_images/4.8.6_database_schema.png" alt="Database Schema">
   <figcaption>Fig. Database Schema</figcaption>
 </figure>
+
+<h1 id="conclusion">7. CONCLUSION</h1>
+<p>
+    This document outlines the problem, scope and necessary information to a reallife working web application for the inventory management system where the admin/inventory will be able to record all the necessary information about the product purchased by the department and it will generate a unique QR code. Valid user will be able to scan the QR code and after successful login can see the details of that equipment.
+</p>
+
+<h1 id="references">8. REFERENCES</h1>
+<ol>
+  <li><a href="https://www.odysseydcs.com">https://www.odysseydcs.com</a></li>
+  <li>A Review of Inventory Management System, International Journal of Advanced Research in Computer and Communication Engineering</li>
+  <li>A QR code technology for centralized inventory management system, International Research Journal of Engineering and Technology (IRJET), <a href="https://www.irjet.net">https://www.irjet.net</a></li>
+  <li>Mobile based inventory management system using QR code, International Journal of Research Publication and Reviews, <a href="https://ijrpr.com">https://ijrpr.com</a></li>
+  <li>Recognition of QR Code with mobile phones, Yue Liu, Ju Yang and Mingjun Liu, <a href="https://ieeexplore.ieee.org">https://ieeexplore.ieee.org</a></li>
+</ol>
