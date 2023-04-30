@@ -11,18 +11,17 @@
 </html>
 <hr>
 
-<!-- <h1 align="center">CONTENTS</h1> -->
-<h1>CONTENTS</h1>
-<h3><a href="#">1. INTRODUCTION</a></h3>
-<p>
-&emsp;<a href="#">1.1 About Project</a>
-<br>&emsp;<a href="#">1.2 Project Plan</a>
-<br>&emsp;<a href="#">1.3 Requirements Specification Document</a>
-<br>&emsp;<a href="#">1.4 Functional Requirement</a>
-<br>&emsp;<a href="#">1.5 Non-Functional Requirements</a>
-<br>&emsp;&emsp;<a href="#">1.5.1 Analysis, Design & Data Requirements</a>
-<br>&emsp;&emsp;<a href="#">1.5.2 Constraints</a>
-<br>&emsp;&emsp;<a href="#">1.5.3 Guidelines</a>
+<h1>CONTENTS</h1> 
+<h3><a href="#introduction">1. INTRODUCTION</a></h3> 
+<p> 
+&emsp;<a href="#about-project">1.1 About Project</a> 
+<br>&emsp;<a href="#">1.2 Project Plan</a> 
+<br>&emsp;<a href="#">1.3 Requirements Specification Document</a> 
+<br>&emsp;<a href="#">1.4 Functional Requirement</a> 
+<br>&emsp;<a href="#">1.5 Non-Functional Requirements</a> 
+<br>&emsp;&emsp;<a href="#">1.5.1 Analysis, Design & Data Requirements</a> 
+<br>&emsp;&emsp;<a href="#">1.5.2 Constraints</a> 
+<br>&emsp;&emsp;<a href="#">1.5.3 Guidelines</a> 
 </p>
 
 <h3><a href="#">2. PROBLEM STATEMENT</a></h3>
@@ -81,3 +80,24 @@
 <h3><a href="#">5. REFERENCES</a></h3>
 
 <hr>
+
+<h2 id="introduction">1. INTRODUCTION</h2>
+<h3 id="about-project">1.1 About Project</h3>
+<p>
+The project Inventory Management System is a web-based application designed
+on HTML5, CSS3, JavaScript, PHP and SQL using Visual Studio Software. The main
+objective of the project is to develop an Inventory Management System Model
+web application in which all the information regarding the equipment of
+each department will be presented. It is an internet-based web application
+which has an admin to manage the inventory and maintenance of the inventory
+system. This web application is based on the management of inventory of
+departments. The main objective of this project is to manage equipment details.
+This project includes various modules and features to add, edit, view and delete
+stock-management-related things in the system database. The application
+contains general organization profile, Purchase details, product details. There is
+a provision of updating the inventory also. Each new equipment is created and
+entitled with the name and the entry date of that item, and it can also be
+updated any time when required as per the requirement or damaged in case.
+Here the login page is created to protect the management of the stock of the
+organization to prevent it from the security threats and misuse of the inventory.
+</p>
